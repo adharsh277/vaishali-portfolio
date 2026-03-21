@@ -41,9 +41,9 @@ const projectsData = [
             "Comprehensive data preprocessing pipeline"
         ],
         links: {
-            github: "https://github.com/saakethj/Apparel-Classifier/tree/master",
-            demo: "https://github.com/saakethj/Apparel-Classifier/tree/master",
-            documentation: "https://github.com/saakethj/Apparel-Classifier/blob/master/README.md"
+            github: "#",
+            demo: "#",
+            documentation: "#"
         },
         color: "#8b5cf6", // Purple theme for ML
         gradient: "from-purple-500 to-violet-600"
@@ -70,9 +70,9 @@ const projectsData = [
             "Responsive design for all devices"
         ],
         links: {
-            github: "https://github.com/saakethj/Medical-store",
-            demo: "https://github.com/saakethj/Medical-store",
-            documentation: "https://github.com/saakethj/Medical-store"
+            github: "#",
+            demo: "#",
+            documentation: "#"
         },
         color: "#10b981", // Green theme for healthcare
         gradient: "from-emerald-500 to-teal-600"
@@ -131,9 +131,9 @@ const projectsData = [
             "Implemented user authentication and profile management",
         ],
         links: {
-            github: "https://github.com/saakethj/gamevault-v2", // Private/Professional
+            github: "#", // Private/Professional
             demo: null,
-            documentation: "https://github.com/saakethj/gamevault-v2/blob/main/README.md"
+            documentation: "#"
         },
         color: "#ff00ff", // Amber theme for fintech
         gradient: "from-amber-500 to-orange-600"
