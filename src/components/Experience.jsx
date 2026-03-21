@@ -7,56 +7,17 @@ import { TextGenerateEffect } from './TextGenerateEffect';
 const experiences = [
   {
     id: 1,
-    company: "BNP Paribas ISPL",
-    role: "Software Engineer Intern",
-    duration: "Jan 2023 – Jul 2023",
-    period: "2023",
-    description: [
-      "Joined as a software intern in the Reconciliation team.",
-      "Learned banking reconciliation tools like IntelliMatch, Admin,Recollector.",
-      "Worked as junior developer in migration and validation of reconciliation rules and processes.",
-      "Exposed to pythin scripting to handle automation tasks",
-      "Gained hands-on experience with cash reconciliation workflows, SQL queries, and batch processing."
-    ]
-  },
-  {
-    id: 2,
-    company: "BNP Paribas ISPL",
-    role: "Associate Software Engineer",
-    duration: "Jul 2023 – Mar 2025",
-    period: "2023-25",
-    description: [
-      "Worked on reconciliation automation using the IntelliMatch tool.",
-      "Handled file flow migrations, scripts automation",
-      "Developed python scripts for data validation and reconciliation.",
-      "Creatied new reconciliation rules and optimized existing ones.",
-    ]
-  },
-  {
-    id: 3,
-    company: "BNP Paribas ISPL",
-    role: "Software Engineer",
-    duration: "Jan 2025 – Aug 2025",
+    company: "CipherSchools",
+    role: "AI & Data Science Summer Intern",
+    duration: "Summer 2025",
     period: "2025",
     description: [
-      "Promoted to Software Engineer role with increased responsibilities.",
-      "Leading reconciliation automation projects and mentoring junior developers.",
-      "Implementing advanced Python automation solutions for financial data processing.",
-      "Optimizing existing workflows and developing new reconciliation strategies.",
-      "Scheduled and maintained jobs using AutoSys."
-
-    ]
-  },
-  {
-    id: 4,
-    company: "IBM",
-    role: "Incoming Software Engineer",
-    duration: "Sep 2025 – Present",
-    period: "2025 - Present",
-    description: [
-      "Offer accepted for a full-time role at IBM (exact domain TBD).",
-      "Looking forward to exploring opportunities in cloud, devops, and intelligent automation.",
-      "Preparing to transition into enterprise-scale software development."
+      "Completed structured internship training focused on Python, Data Science, and Machine Learning workflows.",
+      "Developed a Diabetes Prediction System using supervised machine learning techniques to analyze patient health parameters and predict diabetes risk.",
+      "Performed data preprocessing, handling missing values, feature selection, and exploratory data analysis (EDA).",
+      "Trained and evaluated ML models to compare performance using accuracy and other evaluation metrics.",
+      "Created visualizations and insights to support data-driven healthcare prediction analysis.",
+      "Strengthened practical understanding of end-to-end ML project development and model deployment concepts."
     ]
   }
 ];
@@ -439,14 +400,6 @@ const Experience = () => {
             transition={{ delay: 1.5, duration: 0.5 }}
             className="flex justify-center items-center gap-4"
           >
-            <div className="flex items-center gap-2 bg-black/30 backdrop-blur-sm rounded-full px-4 py-2 border border-white/10">
-              <span className="text-white/60 text-sm">Scroll to navigate</span>
-              <motion.div
-                animate={{ y: [0, 3, 0], opacity: [0.5, 1, 0.5] }}
-                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                className="w-1.5 h-1.5 rounded-full bg-white/60"
-              />
-            </div>
             <div className="flex gap-2">
               {experiences.map((_, index) => (
                 <motion.div
