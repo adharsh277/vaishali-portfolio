@@ -8,39 +8,8 @@ import {
 } from 'react-icons/fi';
 
 const BlogSection = () => {
-  // DevOps and Trending Tech blog posts
-  const blogPosts = [
-    {
-      id: 1,
-      title: "Kubernetes Security Best Practices for Production",
-      excerpt: "Essential security configurations and practices to protect your Kubernetes clusters in production environments. From RBAC to network policies.",
-      date: "Jan 20, 2025",
-      readTime: "8 min read",
-      category: "DevOps Security",
-      tags: ["Kubernetes", "Security", "DevOps", "Production"],
-      color: "#3b82f6"
-    },
-    {
-      id: 2,
-      title: "Docker Multi-Stage Builds: Optimizing Container Images",
-      excerpt: "Learn how to create smaller, more secure Docker images using multi-stage builds and best practices for container optimization.",
-      date: "Jan 15, 2025",
-      readTime: "6 min read",
-      category: "Containerization",
-      tags: ["Docker", "Optimization", "DevOps"],
-      color: "#06b6d4"
-    },
-    {
-      id: 3,
-      title: "GitOps with ArgoCD: Automated Deployment Workflows",
-      excerpt: "Implementing GitOps principles using ArgoCD for automated, reliable, and auditable deployment workflows in Kubernetes.",
-      date: "Jan 10, 2025",
-      readTime: "10 min read",
-      category: "CI/CD",
-      tags: ["GitOps", "ArgoCD", "Automation"],
-      color: "#10b981"
-    }
-  ];
+  // No blog posts to display
+  const blogPosts = [];
 
   const BlogCard = ({ post, index }) => (
     <motion.article
@@ -231,28 +200,7 @@ const BlogSection = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Tech{' '}
-            <motion.span
-              className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent"
-              animate={{
-                backgroundPosition: ['0% 50%', '100% 50%', '0% 50%']
-              }}
-              transition={{
-                duration: 3,
-                repeat: Infinity,
-                ease: "easeInOut"
-              }}
-              style={{
-                backgroundSize: '200% 200%'
-              }}
-            >
-              Insights
-            </motion.span>
-          </h2>
-          <p className="text-white/70 max-w-2xl mx-auto text-lg">
-            DevOps practices, trending technologies, and practical insights from production environments
-          </p>
+          {/* Blog section header removed as requested */}
         </motion.div>
 
         {/* Blog Grid */}
