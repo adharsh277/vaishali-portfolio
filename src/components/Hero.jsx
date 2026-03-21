@@ -139,7 +139,7 @@ const Hero = () => {
                 >
                     <div className="relative">
                         <img
-                            src={`${import.meta.env.BASE_URL}/images/vaishali v.png`}
+                            src="/images/vaishali_v.png"
                             alt="Vaishali V"
                             className="w-80 h-80 md:w-96 md:h-96 lg:w-[400px] lg:h-[400px] object-cover object-center shadow-2xl rounded-full"
                             style={{
