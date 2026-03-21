@@ -86,18 +86,14 @@ const About = () => {
           >
             {/* First Paragraph with BNP Paribas Gradient */}
             <div className="text-lg md:text-xl leading-relaxed font-semibold font-[Inter,sans-serif] text-gray-200 mb-6">
-              <span>Hi, I'm Saaketh, a passionate Software Engineer currently working at </span>
-              <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent font-bold">
-                BNP Paribas India Solutions
-              </span>
-              <span>, where I specialize in financial automation and reconciliation tools.</span>
+              <span>Hi, I'm Vaishali V, a passionate Data Scientist, Data Engineer, Data Analyst, and ML Engineer.</span>
             </div>
 
             {/* Second Paragraph with Python/SQL and DevOps Gradients */}
             <div className="text-lg md:text-xl leading-relaxed font-medium font-[Inter,sans-serif] text-gray-200 mb-6">
-              <span>I enjoy translating business needs into technical solutions. With a strong foundation in </span>
+              <span>I enjoy transforming data into actionable insights and deploying scalable machine learning solutions. With a strong foundation in </span>
               <span className="bg-gradient-to-r from-green-400 via-emerald-500 to-teal-500 bg-clip-text text-transparent font-bold">
-                Python, SQL
+                Python, SQL, Machine Learning, Deep Learning, Data Engineering, Analytics, AWS, GCP, Azure, MLOps, CI/CD
               </span>
               <span>, and automation, I bring efficiency and precision to workflows while always exploring new tools in </span>
               <span className="bg-gradient-to-r from-orange-400 via-red-500 to-pink-500 bg-clip-text text-transparent font-bold">
@@ -127,18 +123,6 @@ const About = () => {
                 round={false}
                 items={[
                   {
-                    title: "2+ Years Experience",
-                    description: "Hands-on experience with IntelliMatch, Admin & Recollector tools at BNP Paribas India Solutions.",
-                    id: 1,
-                    icon: "💼",
-                  },
-                  {
-                    title: "Financial Systems Expert",
-                    description: "Building robust reconciliation workflows and automation solutions for banking operations.",
-                    id: 2,
-                    icon: "🔄",
-                  },
-                  {
                     title: "Python & SQL Developer",
                     description: "Having fundamental knowledge in python for scripting and SQL for databases",
                     id: 3,
@@ -150,12 +134,6 @@ const About = () => {
                     description: "Currently exploring DevOps tools and CI/CD Pipelines.",
                     id: 4,
                     icon: "⚙️",
-                  },
-                  {
-                    title: "BNP Paribas Engineer",
-                    description: "Currently positioned as Associate Software Engineer - I.",
-                    id: 5,
-                    icon: "🏦",
                   },
                 ]}
               />
