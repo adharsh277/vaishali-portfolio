@@ -8,6 +8,5 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
-  base: process.env.VITE_BASE_PATH || "/saaketh-portfolio"
-  // Use different base paths for development vs production
+    base: "/" // ✅ IMPORTANT FIX for Vercel
 })
