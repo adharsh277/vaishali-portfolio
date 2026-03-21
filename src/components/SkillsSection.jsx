@@ -29,16 +29,9 @@ const skillsConfig = {
     {
       icon: <FiCode />,
       title: 'Programming & Development',
-      skills: ['Python', 'Batch Scripting', 'SQL Development'],
+      skills: ['Python', 'Java', 'C++', 'Batch Scripting', 'SQL Development'],
       color: '#ff6b35',
-      proficiencyLevel: 'Intermediate' // Beginner, Intermediate, Advanced, Expert, Learning
-    },
-    {
-      icon: <FiDollarSign />,
-      title: 'FinTech & Automation',
-      skills: ['IntelliMatch', 'Recollector', 'AutoSys', 'Admin', 'Reconciliation'],
-      color: '#00ff88',
-      proficiencyLevel: 'Expert'
+      proficiencyLevel: 'Intermediate'
     },
     {
       icon: <FiDatabase />,
@@ -53,13 +46,6 @@ const skillsConfig = {
       skills: ['GIT', 'GitHub', 'BitBucket', 'CI/CD Pipelines'],
       color: '#00ffff',
       proficiencyLevel: 'Beginner'
-    },
-    {
-      icon: <FiZap />,
-      title: 'Currently Learning',
-      skills: ['DevOps Tools', 'Kubernetes', 'Terraform', 'Ansible'],
-      color: '#ffaa00',
-      proficiencyLevel: 'Learning'
     },
   ],
 
