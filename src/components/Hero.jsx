@@ -70,13 +70,13 @@ const Hero = () => {
                         className="text-4xl md:text-6xl font-bold"
                     >
                         <span style={{ fontWeight: 800, fontFamily: "Inter, sans-serif" }}>
-                            Hi, I'm Saaketh
+                            Hi, I'm Vaishali V
                         </span>
                     </GradientText>
 
                     <div className="text-xl md:text-2xl text-gray-300 font-medium mb-6 font-mono">
                         <TextType
-                            text={["Software Engineer at BNP Paribas"]}
+                            text={["ML Engineer | Data Engineer | Data Scientist"]}
                             typingSpeed={60}
                             pauseDuration={4000}
                             showCursor={true}
@@ -89,9 +89,7 @@ const Hero = () => {
 
                     <p className="text-gray-300 text-sm md:text-base leading-relaxed max-w-lg font-medium"
                         style={{ fontFamily: "Inter, sans-serif", fontWeight: 500, letterSpacing: "0.025em" }}>
-                        Software Engineer at BNP Paribas with over 2 years of experience
-                        specializing in reconciliation workflows using IntelliMatch.
-                        Proficient in SQL & Python. Enthusiastic about CI/CD and DevOps tools.
+                        ML Engineer | Data Engineer | Data Scientist passionate about building data-driven solutions. Skilled in Python, SQL, Machine Learning, Deep Learning, Data Engineering, Analytics, and Cloud tools (AWS, GCP, Azure). Enthusiastic about MLOps, CI/CD, and modern data platforms.
                     </p>
 
                     {/* Aceternity UI Animated Buttons */}
@@ -141,15 +139,15 @@ const Hero = () => {
                 >
                     <div className="relative">
                         <img
-                            src={`${import.meta.env.BASE_URL}/images/Saaketh_profile_pic.webp`}
-                            alt="Saaketh"
+                            src={`${import.meta.env.BASE_URL}/images/vaishali v.png`}
+                            alt="Vaishali V"
                             className="w-80 h-80 md:w-96 md:h-96 lg:w-[400px] lg:h-[400px] object-cover object-center shadow-2xl rounded-full"
                             style={{
                                 filter: 'contrast(1.05) saturate(1.1)',
                                 imageRendering: 'auto',
                                 WebkitBackfaceVisibility: 'hidden',
                                 backfaceVisibility: 'hidden',
-                                transform: 'translateZ(0)',
+                                transform: 'translateZ(0)'
                             }}
                         />
                         <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400/10 to-blue-500/10 blur-xl -z-10" />
