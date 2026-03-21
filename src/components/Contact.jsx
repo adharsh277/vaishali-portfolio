@@ -37,7 +37,7 @@ const ContactSection = () => {
 
   const handleResumeDownload = () => {
     // Update this path to match your resume file location in the public folder
-    const resumePath = `${import.meta.env.BASE_URL}/resume/vaishali_resume.pdf`;
+    const resumePath = "/resume/vaishali_resume.pdf";
     const link = document.createElement('a');
     link.href = resumePath;
     link.download = 'vaishali_resume.pdf';

@@ -213,7 +213,7 @@ const Footer = () => {
                                 </motion.a>
 
                                 <motion.a
-                                    href={`${import.meta.env.BASE_URL}/resume/vaishali_resume.pdf`}
+                                    href="/resume/vaishali_resume.pdf"
                                     download
                                     className="flex items-center gap-3 p-3 rounded-lg text-white/70 hover:text-white text-sm transition-all duration-300 group"
                                     style={{
