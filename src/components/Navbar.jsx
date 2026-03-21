@@ -53,7 +53,7 @@ const Navbar = () => {
           
           {/* Logo/Name with animated gradient */}
           <a 
-            href="/saaketh-portfolio"
+            href="/vaishali-v-portfolio"
             className="tracking-wide relative z-10 transition-all duration-300 hover:scale-105"
             style={{
               fontSize: '1.75rem',
@@ -70,7 +70,7 @@ const Navbar = () => {
                 animation: 'gradientShift 3s ease-in-out infinite'
               }}
             >
-              Saaketh
+              Vaishali V
             </span>
           </a>
 
