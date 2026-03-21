@@ -20,28 +20,28 @@ import {
 const projectsData = [
     {
         id: 1,
-        title: "Apparel Classifier",
+        title: "Enterprise Financial AI Assistant (RAG-Based NLP System)",
         category: "Machine Learning",
         period: "Jan 2021 - May 2021",
         status: "Completed",
         type: "Academic",
-        description: "Apparel Classifier is a neural network model that classifies grayscale images of size (28X28)pixels and provides which category of clothing like shirts, T-shirts, Handbags e.tc. This model uses fasion dataset collected from various sources containing images of clothing('Footwear', 'Handbags', 'Shirts', 'T-shirts'). Te dataset has a total o 10,714 images in total.",
+        description: "Built an AI-powered financial research assistant using Retrieval-Augmented Generation (RAG) to enable semantic search, evidence-grounded question answering, and executive-level summarization of large-scale earnings call transcripts. The system uses vector embeddings with FAISS-based similarity search to retrieve relevant financial insights and generate context-aware responses using local LLM inference.",
         longDescription: "Apparel Classifier is a neural network model that classifies grayscale images of size (28X28)pixels and provides which category of clothing like shirts, T-shirts, Handbags e.tc. This model uses fasion dataset collected from various sources containing images of clothing('Footwear', 'Handbags', 'Shirts', 'T-shirts'). Te dataset has a total o 10,714 images in total",
-        technologies: ["Python", "TensorFlow", "OpenCV", "Pandas", "NumPy", "Matplotlib"],
+        technologies: ["Python", "NLP", "RAG", "FAISS", "Streamlit", "LLM"],
         skills: [
             { name: "Python", level: 90 },
-            { name: "TensorFlow", level: 85 },
-            { name: "Computer Vision", level: 80 },
-            { name: "Data Science", level: 85 }
+            { name: "NLP", level: 85 },
+            { name: "RAG System", level: 80 },
+            { name: "LLM Integration", level: 85 }
         ],
         achievements: [
-            "85% classification accuracy achieved",
-            "Real-time image processing capability",
-            "Custom CNN architecture design",
-            "Comprehensive data preprocessing pipeline"
+            "Implemented semantic search using vector embeddings",
+    "Integrated FAISS for efficient similarity retrieval",
+    "Built context-aware Q&A and summarization system",
+    "Developed interactive Streamlit interface"
         ],
         links: {
-            github: "#",
+            github: "https://github.com/Vaishali-1234/enterprise-nlp-financial-rag",
             demo: "#",
             documentation: "#"
         },
@@ -50,27 +50,29 @@ const projectsData = [
     },
     {
         id: 2,
-        title: "Medical Store Management",
-        category: "Full Stack Development",
-        period: "Mar 2022 - May 2022",
+        title: "Crime Analysis Dashboard",
+        category: "Data Visualization",
+        period: "Mar 2025 - May 2025",
         status: "Completed",
         type: "Academic",
-        description: "A comprehensive web application for pharmacy inventory management and billing system. Features real-time inventory tracking, automated billing, and customer management.",
-        longDescription: "Medical is a dekstop application created using java and java swing packages. It lets users to enter medicine details. Admin can add, update & delete details of a particular medicine. If a medicine is being billed. It shows the medicine details and the price everything.",
-        technologies: ["Jaba", "Spring Boot", "Swing Package", "SQL"],
+        description: "Developed an interactive data analytics dashboard to analyze crime trends, identify high-risk regions, and support data-driven decision-making.",
+        longDescription: "Built a data analytics system using Python and Power BI to process and visualize crime datasets. Implemented dynamic filtering, KPI indicators, and comparative analysis to uncover patterns and trends across regions and categories.",
+        technologies: ["Python", "Pandas", "NumPy", "Power BI", "Data Visualization"],
         skills: [
-            { name: "Java", level: 88 },
-            { name: "Spring Boot", level: 82 },
-            { name: "Swing Package", level: 85 },
+            { name: "Data Analysis", level: 88 },
+            { name: "Visualization", level: 82 },
+            { name: "Pandas", level: 85 },
+            { name: "Power BI", level: 84},
         ],
         achievements: [
-            "Complete CRUD operations implementation",
-            "Real-time inventory updates",
-            "Secure authentication system",
-            "Responsive design for all devices"
+               "Developed interactive dashboards with real-time filtering",
+    "Implemented KPI indicators for trend analysis",
+    "Enabled region-wise and category-wise crime insights",
+    "Improved data storytelling with visual analytics"
+
         ],
         links: {
-            github: "#",
+            github: "https://github.com/Vaishali-1234/interactive-crime-analysis-dashboard",
             demo: "#",
             documentation: "#"
         },
@@ -79,28 +81,28 @@ const projectsData = [
     },
     {
         id: 3,
-        title: "Reconciliation Tool Migration",
-        category: "FinTech Development",
+        title: "Diabetes Prediction ML System",
+        category: "Diabetes Prediction ML System",
         period: "Feb 2025 - Jun 2025",
         status: "In Production",
         type: "Professional",
-        description: "Leading the migration of legacy reconciliation tools to IntelliMatch platform at BNP Paribas. Handling complex financial data processing and automation workflows.",
-        longDescription: "Woeked as a software developer in deploying cash and trade reocniliation migration from legacy system to IntelliMatch. Developed and implemented automated reconciliation workflows, ensuring data integrity and compliance with financial regulations.",
-        technologies: ["Python", "SQL", "IntelliMatch", "AutoSys", "SWIFT", "Batch Processing"],
+        description: "Built a machine learning system to predict diabetes risk using patient health parameters and classification models.",
+        longDescription: "Developed a predictive ML pipeline including data preprocessing, exploratory data analysis, feature selection, and model training. Evaluated multiple classification algorithms to achieve reliable performance and provided insights through visualizations.",
+        technologies: ["Python", "Scikit-learn", "Machine Learning", "Pandas", "Data Visualization"],
         skills: [
             { name: "Python", level: 92 },
-            { name: "SQL", level: 88 },
-            { name: "IntelliMatch", level: 85 },
-            { name: "Data Migration", level: 90 }
+            { name: "Scikit-learn", level: 88 },
+            { name: "Machine Learning", level: 85 },
+            { name: "Data Visualization", level: 90 }
         ],
         achievements: [
-            "Successful legacy system migration",
-            "Automated reconciliation workflows",
-            "Enhanced data processing efficiency",
-            "SWIFT message handling implementation"
+            "Built classification model for diabetes prediction",
+    "Performed feature selection and preprocessing",
+    "Evaluated model performance using standard metrics",
+    "Generated insights through visual analysis"
         ],
         links: {
-            github: null, // Private/Professional
+            github:"https://github.com/Vaishali-1234/diabetes-prediction-ml",
             demo: null,
             documentation: null
         },
@@ -109,29 +111,29 @@ const projectsData = [
     },
     {
         id: 4,
-        title: "GameVault",
+        title: "Dynamic CPU Load Balancer",
         category: "Personal Project",
         period: "Apr 2025 - May 2025",
         status: "In Development",
         type: " Personal",
-        description: "My personal dashbaord created to view my gaming stats and achievements. It is a web application that allows users to track their gaming progress, achievements, and statistics across multiple platforms.",
-        longDescription: "My personal dashbaord created to view my gaming stats and achievements. It is a web application that allows users to track their gaming progress, achievements, and statistics across multiple platforms.",
-        technologies: ["Python", "SQL", "IntelliMatch", "AutoSys", "SWIFT", "Batch Processing"],
+        description: "Designed a dynamic CPU load balancing system to monitor utilization and distribute tasks across multiple cores in real time.",
+        longDescription:  "Implemented a threshold-based load balancing mechanism using multiprocessing to optimize CPU usage and reduce bottlenecks. The system visualizes real-time performance through a GUI and demonstrates core operating system scheduling concepts.",
+        technologies: ["Python", "Multiprocessing", "Operating Systems", "Tkinter"],
         skills: [
             { name: "Python", level: 92 },
             { name: "SQL", level: 88 },
-            { name: "Tailwind CSS", level: 85 },
-            { name: "React JS", level: 90 },
-            { name: "Prsima", level: 80 }
+            { name: "Multiprocessing", level: 85 },
+            { name: "OS Concepts", level: 90 },
+            { name: "Tkinter", level: 80 }
         ],
         achievements: [
-            "Creating a personal dashboard",
-            "Integrated front end with React and Tailwind CSS",
-            "Wesbite is interacted with Database to store game stats, user etc details",
-            "Implemented user authentication and profile management",
+            "Implemented real-time CPU utilization monitoring",
+    "Designed threshold-based load balancing logic",
+    "Reduced processing bottlenecks through task distribution",
+    "Built interactive GUI using Tkinter"
         ],
         links: {
-            github: "#", // Private/Professional
+            github: "https://github.com/Vaishali-1234/Dynamic-Load-Balancing-", 
             demo: null,
             documentation: "#"
         },
