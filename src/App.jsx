@@ -6,6 +6,7 @@ import SkillsSection from './components/SkillsSection';
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import ProjectsSection from "./components/Projects";
 import ContactSection  from "./components/Contact";
+import CertificateSection from "./components/CertificateSection";
 import BlogSection from "./components/blog";
 import Footer from "./components/Footer";
 
@@ -19,6 +20,7 @@ function App() {
       <Experience />
       <SkillsSection/>
       <ProjectsSection />
+      <CertificateSection />
       <ContactSection />
       <BlogSection />
       <Footer />
