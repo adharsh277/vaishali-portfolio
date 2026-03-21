@@ -20,14 +20,14 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     const socialLinks = [
-        { icon: FiGithub, href: "https://github.com/saakethj", label: "GitHub", color: "#ffffff" },
-        { icon: FiLinkedin, href: "https://www.linkedin.com/in/jellasaaketh/", label: "LinkedIn", color: "#0077b5" },
-        { icon: FiTwitter, href: "https://twitter.com/SaakethJ", label: "Twitter", color: "#1da1f2" },
-        { icon: FiInstagram, href: "https://instagram.com/saaketh_jella01", label: "Instagram", color: "#e4405f" },
-        { icon: FiMail, href: "mailto:saaketh.jella123@gmail.com", label: "Email", color: "#ea4335" },
-        { icon: FiCode, href: "https://codepen.io/saakethj", label: "CodePen", color: "#000000" },
-        { icon: FiExternalLink, href: "https://dev.to/saakethj", label: "Dev.to", color: "#0a0a0a" },
-        { icon: FiSend, href: "https://telegram.me/saakethj", label: "Telegram", color: "#0088cc" }
+        { icon: FiGithub, href: "#", label: "GitHub", color: "#ffffff" },
+        { icon: FiLinkedin, href: "#", label: "LinkedIn", color: "#0077b5" },
+        { icon: FiTwitter, href: "#", label: "Twitter", color: "#1da1f2" },
+        { icon: FiInstagram, href: "#", label: "Instagram", color: "#e4405f" },
+        { icon: FiMail, href: "mailto:vaishali.v@email.com", label: "Email", color: "#ea4335" },
+        { icon: FiCode, href: "#", label: "CodePen", color: "#000000" },
+        { icon: FiExternalLink, href: "#", label: "Dev.to", color: "#0a0a0a" },
+        { icon: FiSend, href: "#", label: "Telegram", color: "#0088cc" }
     ];
 
     const quickLinks = [
@@ -87,7 +87,7 @@ const Footer = () => {
                         >
                             <div className="mb-6">
                                 <h3 className="text-2xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-                                    JELLA Saaketh
+                                    Vaishali V
                                 </h3>
                                 <div className="mt-2">
                                     <p className="text-sm text-blue-400/80">Full Stack Developer</p>
@@ -194,7 +194,7 @@ const Footer = () => {
                             {/* Enhanced Quick Actions */}
                             <div className="space-y-3">
                                 <motion.a
-                                    href="mailto:saaketh.jella123@gmail.com"
+                                    href="mailto:vaishali.v@email.com"
                                     className="flex items-center gap-3 p-3 rounded-lg text-white/70 hover:text-white text-sm transition-all duration-300 group"
                                     style={{
                                         background: 'linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%)',
@@ -213,7 +213,7 @@ const Footer = () => {
                                 </motion.a>
 
                                 <motion.a
-                                    href={`${import.meta.env.BASE_URL}/resume/Saaketh_resume.pdf`}
+                                    href={`${import.meta.env.BASE_URL}/resume/VaishaliV_resume.pdf`}
                                     download
                                     className="flex items-center gap-3 p-3 rounded-lg text-white/70 hover:text-white text-sm transition-all duration-300 group"
                                     style={{
@@ -264,7 +264,7 @@ const Footer = () => {
                             >
                                 <FiCoffee className="w-4 h-4 text-amber-400" />
                             </motion.div>
-                            <span>by Saaketh Jella</span>
+                            <span>by Vaishali V</span>
                         </motion.div>
 
                         {/* Enhanced Tech Stack */}
