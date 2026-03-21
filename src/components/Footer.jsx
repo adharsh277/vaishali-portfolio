@@ -115,7 +115,7 @@ const Footer = () => {
 
                             <div className="flex items-center gap-2 text-white/60 text-sm">
                                 <FiMapPin className="w-4 h-4" />
-                                Mumbai, Maharashtra, India
+                                Kasargod, Kerala, India
                             </div>
                         </motion.div>
                     </div>
