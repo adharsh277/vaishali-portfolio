@@ -47,12 +47,14 @@ const ContactSection = () => {
   };
 
   const contactInfo = {
-    email: "saaketh.jella123@gmail.com",
-    phone: "+91-7288942007",
-    location: "Mumbai, Maharashtra",
+    name: "Vaishali V",
+    email: "vaishali.vannarath@gmail.com",
+    phone: "+91 9995741967",
+    location: "Kasargod, Kerala",
     timezone: "GMT +5:30",
-    linkedin: "https://www.linkedin.com/in/jellasaaketh/",
-    github: "https://github.com/saakethj",
+    linkedin: "https://www.linkedin.com/in/vaishali-v28/",
+    github: "https://github.com/Vaishali-1234",
+    leetcode: "https://leetcode.com/u/Vaishali-V/",
     status: "Available for work",
     workType: "Remote/Hybrid OK"
   };
@@ -452,6 +454,26 @@ const ContactSection = () => {
                   >
                     <FiGithub className="text-cyan-400 flex-shrink-0 text-lg" />
                     <span className="text-white/90 text-sm font-medium">→ GitHub Repos</span>
+                    <FiExternalLink className="text-white/50 ml-auto group-hover:text-white/80 group-hover:scale-110 transition-all" />
+                  </motion.a>
+                  <motion.a
+                    href={contactInfo.leetcode}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex items-center gap-3 p-4 rounded-xl border border-white/20 hover:border-white/30 transition-all duration-300"
+                    style={{
+                      background: 'linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%)',
+                      backdropFilter: 'blur(10px)',
+                      boxShadow: '0 4px 16px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.1)'
+                    }}
+                    whileHover={{ 
+                      scale: 1.02,
+                      y: -2,
+                      boxShadow: '0 8px 25px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.2)'
+                    }}
+                  >
+                    <FiCode className="text-cyan-400 flex-shrink-0 text-lg" />
+                    <span className="text-white/90 text-sm font-medium">→ LeetCode Profile</span>
                     <FiExternalLink className="text-white/50 ml-auto group-hover:text-white/80 group-hover:scale-110 transition-all" />
                   </motion.a>
                 </div>
