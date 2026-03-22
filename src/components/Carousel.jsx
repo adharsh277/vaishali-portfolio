@@ -148,18 +148,18 @@ export default function Carousel({
     // If item has an image, render the image
     if (item.image) {
       return (
-        <div className="h-[40px] w-[40px] rounded-full overflow-hidden bg-gray-700 flex items-center justify-center">
+        <div className="h-[40px] w-[40px] overflow-hidden bg-gray-700 flex items-center justify-center rounded-lg">
           <img 
             src={item.image} 
             alt={item.title}
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover rounded-lg"
             onError={(e) => {
               // Fallback to text icon if image fails to load
               e.target.style.display = 'none';
               e.target.nextElementSibling.style.display = 'flex';
             }}
           />
-          <div className="h-full w-full hidden items-center justify-center text-white text-lg font-bold bg-gray-600">
+          <div className="h-full w-full hidden items-center justify-center text-white text-lg font-bold bg-gray-600 rounded-lg">
             {item.title.charAt(0)}
           </div>
         </div>
@@ -169,7 +169,7 @@ export default function Carousel({
     // If item has an emoji icon (string)
     if (typeof item.icon === 'string') {
       return (
-        <span className="flex h-[40px] w-[40px] items-center justify-center rounded-full bg-[#060010] text-2xl">
+        <span className="flex h-[40px] w-[40px] items-center justify-center bg-[#060010] text-2xl rounded-lg">
           {item.icon}
         </span>
       );
@@ -177,7 +177,7 @@ export default function Carousel({
     
     // Default React icon component
     return (
-      <span className="flex h-[40px] w-[40px] items-center justify-center rounded-full bg-[#060010]">
+      <span className="flex h-[40px] w-[40px] items-center justify-center bg-[#060010] rounded-lg">
         {item.icon}
       </span>
     );
