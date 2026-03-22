@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import TextType from "./TextType";
 import Aurora from "./Aurora";
 import GradientText from "./GradientText";
+import PortfolioBox from "./PortfolioBox";
 import { HoverBorderGradient } from './HoverBorderGradient'; // Adjust path as needed
 
 
@@ -129,29 +130,14 @@ const Hero = () => {
                     </div>
 
                 </motion.div>
-
-                {/* RIGHT: Image Section */}
+                {/* RIGHT: PortfolioBox Section */}
                 <motion.div
                     variants={slideFromRight}
                     initial="hidden"
                     animate="visible"
                     className="md:w-1/2 w-full flex justify-center md:justify-end"
                 >
-                    <div className="relative">
-                        <img
-                            src="/images/vaishali_v.png"
-                            alt="Vaishali V"
-                            className="w-80 h-80 md:w-96 md:h-96 lg:w-[400px] lg:h-[400px] object-cover object-center shadow-2xl rounded-xl"
-                            style={{
-                                filter: 'contrast(1.05) saturate(1.1)',
-                                imageRendering: 'auto',
-                                WebkitBackfaceVisibility: 'hidden',
-                                backfaceVisibility: 'hidden',
-                                transform: 'translateZ(0)'
-                            }}
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/10 to-blue-500/10 blur-xl -z-10 rounded-xl" />
-                    </div>
+                    <PortfolioBox />
                 </motion.div>
             </div>
         </section>
