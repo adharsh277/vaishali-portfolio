@@ -2,6 +2,7 @@ import BlurText from './BlurText';
 import Carousel from './Carousel'; // Back to original
 import { motion } from 'framer-motion';
 import { TextGenerateEffect } from './TextGenerateEffect';
+import PortfolioBox from './PortfolioBox';
 
 const About = () => {
   const handleAnimationComplete = () => {
@@ -78,7 +79,7 @@ const About = () => {
 
           {/* Left Side - Clean Highlighted Bio Text with Gradients */}
           <motion.div
-            className="lg:w-1/2 w-full flex flex-col justify-start"
+            className="w-full lg:w-1/2 flex flex-col justify-start"
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.3 }}
@@ -93,42 +94,32 @@ const About = () => {
             <div className="text-lg md:text-xl leading-relaxed font-medium font-[Inter,sans-serif] text-gray-200 mb-6">
               <span>I learn by working on hands-on projects in machine learning, natural language processing, and analytical dashboards, which have helped me develop strong analytical thinking and structured problem-solving skills. My goal is to grow into a skilled data engineer who builds robust data pipelines and contributes to impactful technology solutions.</span>
             </div>
+
+            {/* Portfolio Box styled like the provided image */}
           </motion.div>
 
-          {/* Right Side - Carousel with fixed responsive width */}
+          {/* Right Side - Profile Image */}
           <motion.div
-            className="lg:w-1/2 w-full flex items-start justify-center lg:justify-end lg:pr-0"
+            className="w-full lg:w-1/2 flex items-center justify-center lg:justify-end"
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <div className="w-full lg:ml-auto lg:mr-0 max-w-sm lg:max-w-md mx-auto lg:mx-0">
-              <Carousel
-                baseWidth={typeof window !== 'undefined' ?
-                  window.innerWidth < 1024 ? Math.min(350, window.innerWidth - 60) : 400
-                  : 350}
-                autoplay={true}
-                autoplayDelay={3500}
-                pauseOnHover={true}
-                loop={true}
-                round={false}
-                items={[
-                  {
-                    title: "Python & SQL Developer",
-                    description: "Having fundamental knowledge in python for scripting and SQL for databases",
-                    id: 3,
-                    icon: "🐍",
-                    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png"
-                  },
-                  {
-                    title: "DevOps & CI/CD",
-                    description: "Currently exploring DevOps tools and CI/CD Pipelines.",
-                    id: 4,
-                    icon: "⚙️",
-                  },
-                ]}
+            <div className="relative">
+              <img
+                src="/images/vaishali_v.png"
+                alt="Vaishali V"
+                className="w-80 h-80 md:w-96 md:h-96 lg:w-[400px] lg:h-[400px] object-cover object-center shadow-2xl rounded-xl"
+                style={{
+                  filter: 'contrast(1.05) saturate(1.1)',
+                  imageRendering: 'auto',
+                  WebkitBackfaceVisibility: 'hidden',
+                  backfaceVisibility: 'hidden',
+                  transform: 'translateZ(0)'
+                }}
               />
+              <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/10 to-blue-500/10 blur-xl -z-10 rounded-xl" />
             </div>
           </motion.div>
 
