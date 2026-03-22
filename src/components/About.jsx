@@ -86,20 +86,12 @@ const About = () => {
           >
             {/* First Paragraph with BNP Paribas Gradient */}
             <div className="text-lg md:text-xl leading-relaxed font-semibold font-[Inter,sans-serif] text-gray-200 mb-6">
-              <span>Hi, I'm Vaishali V, a passionate Data Scientist, Data Engineer, Data Analyst, and ML Engineer.</span>
+              <span>A passionate aspiring data engineer who enjoys building intelligent, data-driven solutions. Curious about transforming raw data into meaningful insights and designing scalable systems that solve real-world problems.</span>
             </div>
 
             {/* Second Paragraph with Python/SQL and DevOps Gradients */}
             <div className="text-lg md:text-xl leading-relaxed font-medium font-[Inter,sans-serif] text-gray-200 mb-6">
-              <span>I enjoy transforming data into actionable insights and deploying scalable machine learning solutions. With a strong foundation in </span>
-              <span className="bg-gradient-to-r from-green-400 via-emerald-500 to-teal-500 bg-clip-text text-transparent font-bold">
-                Python, SQL, Machine Learning, Deep Learning, Data Engineering, Analytics, AWS, GCP, Azure, MLOps, CI/CD
-              </span>
-              <span>, and automation, I bring efficiency and precision to workflows while always exploring new tools in </span>
-              <span className="bg-gradient-to-r from-orange-400 via-red-500 to-pink-500 bg-clip-text text-transparent font-bold">
-                DevOps
-              </span>
-              <span> and CI/CD.</span>
+              <span>I learn by working on hands-on projects in machine learning, natural language processing, and analytical dashboards, which have helped me develop strong analytical thinking and structured problem-solving skills. My goal is to grow into a skilled data engineer who builds robust data pipelines and contributes to impactful technology solutions.</span>
             </div>
           </motion.div>
 
