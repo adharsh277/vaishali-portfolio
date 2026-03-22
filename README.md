@@ -1,12 +1,12 @@
-# 🌟 Saaketh's Portfolio
+# 🌟 Vaishali's Portfolio
 
-A modern, responsive portfolio website showcasing my work, skills, and professional journey. Built with cutting-edge web technologies for optimal performance and user experience.
+A modern, responsive portfolio website showcasing Vaishali's work, skills, and professional journey. Built with cutting-edge web technologies for optimal performance and user experience.
 
-![Portfolio Preview](https://github.com/saakethj/saaketh-portfolio/blob/master/public/images/Preview.png)
+
 
 ## 🚀 Live Demo
 
-🔗 **[View Live Site](https://www.saakethj.in/)**
+🔗 **[View Live Site](https://vaishali-portfolio.example.com/)**
 
 ## ✨ Features
 
@@ -51,8 +51,8 @@ A modern, responsive portfolio website showcasing my work, skills, and professio
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/saakethj/saaketh-portfolio.git
-   cd saaketh-portfolio
+  git clone https://github.com/adharsh277/vaishali-portfolio.git
+  cd vaishali-portfolio
    ```
 
 2. **Install dependencies**
@@ -208,7 +208,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/saaketh-portfolio/', // GitHub Pages base path
+  base: '/vaishali-portfolio/', // GitHub Pages base path
 })
 ```
 
@@ -245,10 +245,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-**Saaketh J**
-- Portfolio: [https://saakethj.github.io/saaketh-portfolio/](https://saakethj.github.io/saaketh-portfolio/)
-- GitHub: [@saakethj](https://github.com/saakethj)
-- Email: [your.email@example.com](mailto:saaketh.jella123@gmail.com)
+**Vaishali**
+- Portfolio: [https://adharsh277.github.io/vaishali-portfolio/](https://adharsh277.github.io/vaishali-portfolio/)
+- GitHub: [@adharsh277](https://github.com/adharsh277)
+- Email: [vaishali.email@example.com](mailto:vaishali.email@example.com)
 
 ## 🙏 Acknowledgments
 
