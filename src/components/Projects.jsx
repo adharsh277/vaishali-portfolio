@@ -23,7 +23,7 @@ const projectsData = [
         title: "Enterprise Financial AI Assistant (RAG-Based NLP System)",
         category: "Machine Learning",
         period: "Jan 2021 - May 2021",
-        status: "Completed",
+        status: "In Progress",
         type: "Academic",
         description: "Built an AI-powered financial research assistant using Retrieval-Augmented Generation (RAG) to enable semantic search, evidence-grounded question answering, and executive-level summarization of large-scale earnings call transcripts. The system uses vector embeddings with FAISS-based similarity search to retrieve relevant financial insights and generate context-aware responses using local LLM inference.",
         longDescription: "Apparel Classifier is a neural network model that classifies grayscale images of size (28X28)pixels and provides which category of clothing like shirts, T-shirts, Handbags e.tc. This model uses fasion dataset collected from various sources containing images of clothing('Footwear', 'Handbags', 'Shirts', 'T-shirts'). Te dataset has a total o 10,714 images in total",
@@ -139,6 +139,39 @@ const projectsData = [
         },
         color: "#ff00ff", // Amber theme for fintech
         gradient: "from-amber-500 to-orange-600"
+    },
+    {
+        id: 5,
+        title: "Model Monitoring and Drift-Simulation",
+        category: "ML Monitoring Platform",
+        period: "2026",
+        status: "Completed",
+        type: "Professional",
+        description: "An end-to-end ML monitoring platform that detects data drift using statistical tests and automatically retrains the model when performance degrades, with a live Streamlit dashboard.",
+        longDescription: "Developed a robust ML monitoring system that continuously checks for data drift using statistical tests, triggers automated retraining when model performance drops, and provides real-time insights through a Streamlit dashboard. Integrated with Supabase and PostgreSQL for data management and used SMOTE for handling imbalanced data.",
+        technologies: ["Python", "Scikit-learn", "Streamlit", "Supabase", "PostgreSQL", "Pandas", "SMOTE"],
+        skills: [
+            { name: "Python", level: 90 },
+            { name: "Scikit-learn", level: 85 },
+            { name: "Streamlit", level: 88 },
+            { name: "Supabase", level: 80 },
+            { name: "PostgreSQL", level: 80 },
+            { name: "Pandas", level: 85 },
+            { name: "SMOTE", level: 80 }
+        ],
+        achievements: [
+            "Implemented statistical tests for drift detection",
+            "Automated model retraining on performance drop",
+            "Built a live dashboard with Streamlit",
+            "Integrated Supabase and PostgreSQL for data storage"
+        ],
+        links: {
+            github: "https://github.com/Shivali-10/Model-Monitoring-and-Drift-Simulation",
+            demo: "https://model-monitoring-and-drift-simulation.streamlit.app/",
+            documentation: null
+        },
+        color: "#2563eb", // Blue theme for monitoring
+        gradient: "from-blue-500 to-cyan-600"
     }
 ];
 
