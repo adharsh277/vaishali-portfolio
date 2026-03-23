@@ -76,7 +76,7 @@ const Navbar = () => {
 
           {/* Desktop Navigation Links */}
           <ul className="hidden md:flex gap-8">
-            {['About', 'Experience', 'Skills', 'Projects', 'Contact', 'Blog'].map((item) => (
+            {['About', 'Experience', 'Skills', 'Projects', 'Contact', 'Certification'].map((item) => (
               <li key={item}>
                 <a
                   href={`#${item.toLowerCase()}`}
@@ -157,7 +157,7 @@ const Navbar = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-white/8 via-white/4 to-transparent opacity-30"></div>
           
           <ul className="relative flex flex-col py-2">
-            {['About', 'Experience', 'Skills', 'Projects', 'Contact', 'Blog'].map((item, index) => (
+            {['About', 'Experience', 'Skills', 'Projects', 'Contact', 'Certification'].map((item, index) => (
               <li key={item}>
                 <a
                   href={`#${item.toLowerCase()}`}
