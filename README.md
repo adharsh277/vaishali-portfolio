@@ -3,7 +3,6 @@
 A modern, responsive portfolio website showcasing Vaishali's work, skills, and professional journey. Built with cutting-edge web technologies for optimal performance and user experience.
 
 
-
 ## 🚀 Live Demo
 
 🔗 **[View Live Site](https://vaishali-portfolio.example.com/)**
